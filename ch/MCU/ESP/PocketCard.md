@@ -31,7 +31,7 @@ PocketCard board is 5 cm x 4 cm in size, it houses a 20-Pin edge connector, buil
 
 the I/O space configuration is as follows:
 
-| 主板元件 | ESP32 腳位 |                              |
+|                    |         |                              |
 | -------------------| ------- | ---------------------------- |
 | Botton A           | GPIO 14 | Digital Input  |
 | Botton B           | GPIO 25 | Digital Input  |
