@@ -9,7 +9,7 @@
 - PocketCard Lite 可以直接組裝
 
 
-<img src="images/camera/0001.jpg" alt="00000" style="zoom:60%;" />
+<img src="images/camera/0001.jpg" alt="00000" style="zoom:50%;" />
 
 #### 2. 組裝
 
