@@ -1,19 +1,22 @@
 #  PocketCard Camera Extension Board
 
+#### PocketCard 視訊板
+
 #### 1. 主板版本確認
 
-- PocketCard  MPU9250的V1 版本沒有PSRAM 8MB，容量太小，所以會編譯不過
+- PocketCard MPU9250的V1 版本沒有PSRAM 8MB，容量太小，所以會編譯不過
 
 - PocketCard MPU9250的V2 版本，第一批生產時有2顆電容要解焊掉（紅框位置）才可以使用Camera 擴展板，其它批生產沒有這個問題，可以直接組裝
 
-- PocketCard Lite 可以直接組裝
+  <img src="images/camera/0001.jpg" alt="00000" style="zoom:40%;" />
+
+- PocketCard Lite 現行版本，可以直接組裝
 
 
-<img src="images/camera/0001.jpg" alt="00000" style="zoom:50%;" />
 
 #### 2. 組裝
 
-先按照 組裝影片 組裝好
+先按照 組裝影片 組裝好導電膠條，導電膠條如果有灰塵髒污等東西，請先用酒精清潔後再組裝。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6ne-c_xRvqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,7 +66,7 @@ PocketCard Camera 使用的腳位很多，所以micro:bit Edge 那的腳位只�
 
 再重新編譯上傳就行。
 
-<br/><br/><br/>
+
 
 ##### 網路上 PocketCard Camera 相關教學資料
 

@@ -19,3 +19,4 @@
 * [KSB060 IO擴展板 (14500版本)](microbit/KSB060.md)
 * [KSB062 大電流鋰電池板](microbit/KSB062.md)
 * [KSB064 PlayGamer Lite 彩屏遊戲擴展板](microbit/KSB064.md)
+* [KSB065 Home Automation Board 家庭自動化擴展板](microbit/KSB065.md)
