@@ -4,9 +4,9 @@
 
 #### PocketCard 專屬擴展板 
 
-[PocketCard Camera 擴展板](PocketCard_Camera.md)
+[PocketCard Camera 視訊擴展板](PocketCard_Camera.md)
 
-[PocketCard Audio 擴展板](PocketCard_Audio.md)
+[PocketCard Audio 音訊擴展板](PocketCard_Audio.md)
 
 
 
