@@ -24,6 +24,8 @@
 
 啟動 Arduino IDE ，開發板設定值「Partition Scheme」  請一定要選 「Huge APP」
 
+PSRAM 選「Enabled」
+
 <img src="images/arduino/00005.jpg" alt="00008" style="zoom:67%;" />
 
 打開範例的 「CameraWebServer」

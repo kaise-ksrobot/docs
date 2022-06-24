@@ -64,9 +64,11 @@ Additional Boards Manager URLs：
 
 點擊下拉功能表「Tools」>「Board」，
 
-選擇「ESP32 Wrover Module」
+選擇「ESP32 Dev Module」
 
 開發板設定值可以用預設，但「Partition Scheme」  請改選 「Huge APP」
+
+要玩WEB Camera ，PSRAM 選「Enabled」
 
  <img src="images/arduino/00005.jpg" alt="00008" style="zoom:67%;" />
 
