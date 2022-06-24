@@ -16,9 +16,11 @@
 
 https://kaise-ksrobot.github.io/docs/ch/MCU/ESP/PocketCard/PocketCard_Arduino.html
 
-再把KSB065 需要用的Lib 放置到Arduino libraries 的目錄
+再把KSB065 需要用的Lib （KSB065_ESP32_ARDUINO_DEMO/Lib）放置到Arduino libraries 的目錄
 
-https://github.com/kaise-ksrobot/pocketcard_arduino
+[KSB065_ESP32_ARDUINO_DEMO.zip](example/KSB065/KSB065_ESP32_ARDUINO_DEMO.zip)
+
+PS 範例下載：選範例後再另存連結
 
 
 
@@ -151,7 +153,7 @@ Slide(滑桿)  和 Motor(馬達控制)  的 IO腳位P1/IO33重複，功能2擇1
 
 PS
 
-Relay(繼電器)   和 PSRAM 的 IO腳位P7/IO17重複，功能2擇1，所以使用繼電器時，開發板選項中的PSRAM 要記得Disable
+Relay(繼電器)   和 PSRAM 的 IO腳位P7/IO17重複，功能2擇1，所以使用繼電器時，**開發板選項中的PSRAM 要記得Disable**
 
 
 
