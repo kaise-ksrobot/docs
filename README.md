@@ -1,3 +1,0 @@
-Welcome
-
-KAISE KSRobot
