@@ -1,0 +1,2258 @@
+
+<!DOCTYPE HTML>
+<html lang="ch" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>KSB069 ESP32/Pico Motor Board · KAISE KSRobot</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="KAISE KSRobot">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="KSB072.html" />
+    
+    
+    <link rel="prev" href="../esp32.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.kaise.com.tw" target="_blank" class="custom-link">KAISE KSRobot</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    首頁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../BASIC/">
+            
+                <a href="../../BASIC/">
+            
+                    
+                    入門教學
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    Arduino IDE
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    micro:bit MakeCode
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../BASIC/esp32_arduino.html">
+            
+                <a href="../../BASIC/esp32_arduino.html">
+            
+                    
+                    ESP32 Arduino 設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../BASIC/pico_arduino.html">
+            
+                <a href="../../BASIC/pico_arduino.html">
+            
+                    
+                    Raspberry Pi Pico  Arduino 設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../MCU/">
+            
+                <a href="../../MCU/">
+            
+                    
+                    主控板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../MCU/arduino.html">
+            
+                <a href="../../MCU/arduino.html">
+            
+                    
+                    Arduino 系列
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" >
+            
+                <span>
+            
+                    
+                    KSB017 Arduino Nano Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" >
+            
+                <span>
+            
+                    
+                    KSB018 Arduino Micro Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" >
+            
+                <span>
+            
+                    
+                    KSB019 Arduino Leonardo Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" >
+            
+                <span>
+            
+                    
+                    KSB020 Arduino UNO Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" >
+            
+                <span>
+            
+                    
+                    KSB024 Arduino Senesor Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" >
+            
+                <span>
+            
+                    
+                    KSB026 Arduino Servo Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../MCU/esp.html">
+            
+                <a href="../../MCU/esp.html">
+            
+                    
+                    ESP 系列
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../MCU/ESP/PocketCard/PocketCard_home.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_home.html">
+            
+                    
+                    PocketCard 系列
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1.1" data-path="../../MCU/ESP/PocketCard/PocketCard_Introduction.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Introduction.html">
+            
+                    
+                    硬體簡介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1.1.1" data-path="../../MCU/ESP/PocketCard/PocketCard_V2.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_V2.html">
+            
+                    
+                    PocketCard 主板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.1.2" data-path="../../MCU/ESP/PocketCard/PocketCard_Lite.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Lite.html">
+            
+                    
+                    PocketCard Lite 主板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.2" data-path="../../MCU/ESP/PocketCard/PocketCard_Arduino.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Arduino.html">
+            
+                    
+                    For Arduino
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.3" data-path="../../MCU/ESP/PocketCard/PocketCard_Scratch3.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Scratch3.html">
+            
+                    
+                    For Scratch3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.4" data-path="../../MCU/ESP/PocketCard/PocketCard_Blockly.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Blockly.html">
+            
+                    
+                    For Blockly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.5" data-path="../../MCU/ESP/PocketCard/PocketCard_MicroPython.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_MicroPython.html">
+            
+                    
+                    For MicroPython
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.6" data-path="../../MCU/ESP/PocketCard/PocketCard_Extension.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Extension.html">
+            
+                    
+                    PocketCard 擴展板系列
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1.6.1" data-path="../../MCU/ESP/PocketCard/PocketCard_Camera.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Camera.html">
+            
+                    
+                    PocketCard Camera 視訊擴展板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.6.2" data-path="../../MCU/ESP/PocketCard/PocketCard_Audio.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_Audio.html">
+            
+                    
+                    PocketCard Audio 音訊擴展板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.1.6.3" data-path="../../MCU/ESP/PocketCard/PocketCard_mb_Extension.html">
+            
+                <a href="../../MCU/ESP/PocketCard/PocketCard_mb_Extension.html">
+            
+                    
+                    PocketCard 兼容micro:bit 擴展板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../MCU/ESP/nodemcu32s-cam/nodemcu32s-cam.html">
+            
+                <a href="../../MCU/ESP/nodemcu32s-cam/nodemcu32s-cam.html">
+            
+                    
+                    NodeMCU32s-CAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    擴展板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../arduino.html">
+            
+                <a href="../arduino.html">
+            
+                    
+                    Arduino
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" >
+            
+                <span>
+            
+                    
+                    KSB001 LCM Keypad Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" >
+            
+                <span>
+            
+                    
+                    KSB002 HC05 Bluetooth Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.3" >
+            
+                <span>
+            
+                    
+                    KSB004 WIFI RJ45 Net Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.4" >
+            
+                <span>
+            
+                    
+                    KSB006 Xbee Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.5" >
+            
+                <span>
+            
+                    
+                    KSB007 Makey Makey Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.6" >
+            
+                <span>
+            
+                    
+                    KSB008 PS2  Joystick Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.7" >
+            
+                <span>
+            
+                    
+                    KSB015 L298P Motor Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.8" data-path="../Arduino/KSB016.html">
+            
+                <a href="../Arduino/KSB016.html">
+            
+                    
+                    KSB016 Senser Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.9" >
+            
+                <span>
+            
+                    
+                    KSB029 Scratch Sensor Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.10" >
+            
+                <span>
+            
+                    
+                    KSB030 RJ11 Scratch Sensor Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.11" >
+            
+                <span>
+            
+                    
+                    KSB031 UNO ProtoShield Breadboard
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.12" >
+            
+                <span>
+            
+                    
+                    KSB041 Yilan Sensor Board
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../microbit.html">
+            
+                <a href="../microbit.html">
+            
+                    
+                    micro:bit
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../microbit/KSB034.html">
+            
+                <a href="../microbit/KSB034.html">
+            
+                    
+                    KSB034 基礎版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="../microbit/KSB035.md">
+            
+                <span>
+            
+                    
+                    KSB035 CR2032 電池板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../microbit/KSB036.md">
+            
+                <span>
+            
+                    
+                    KSB036 AAA 電池板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.4" data-path="../microbit/KSB037.md">
+            
+                <span>
+            
+                    
+                    KSB037 馬達板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.5" data-path="../microbit/KSB038.md">
+            
+                <span>
+            
+                    
+                    KSB038 舵機板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.6" data-path="../microbit/KSB039.html">
+            
+                <a href="../microbit/KSB039.html">
+            
+                    
+                    KSB039 感測器多功能板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.7" data-path="../microbit/KSB039_IOT.html">
+            
+                <a href="../microbit/KSB039_IOT.html">
+            
+                    
+                    KSB039 IOT 感測器多功能板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.8" data-path="../microbit/KSB040.html">
+            
+                <a href="../microbit/KSB040.html">
+            
+                    
+                    KSB040 鋰電池板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.9" >
+            
+                <span>
+            
+                    
+                    KSB042 小車底板
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.10" data-path="../microbit/KSB043.html">
+            
+                <a href="../microbit/KSB043.html">
+            
+                    
+                    KSB043 IO擴展板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.11" >
+            
+                <span>
+            
+                    
+                    KSB044 oBot 轉micro:bit 轉板
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.12" data-path="../microbit/KSB045.html">
+            
+                <a href="../microbit/KSB045.html">
+            
+                    
+                    KSB045 搖桿板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.13" data-path="../microbit/KSB046.md">
+            
+                <span>
+            
+                    
+                    KSB046 互動式鋰電池板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.14" data-path="../microbit/KSB048.html">
+            
+                <a href="../microbit/KSB048.html">
+            
+                    
+                    KSB048 4路馬達舵機板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.15" >
+            
+                <span>
+            
+                    
+                    KSB047 PWM轉板
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.16" data-path="../microbit/KSB057.html">
+            
+                <a href="../microbit/KSB057.html">
+            
+                    
+                    KSB057 OLED顯示板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.17" data-path="../microbit/KSB060.html">
+            
+                <a href="../microbit/KSB060.html">
+            
+                    
+                    KSB060 IO擴展板 (14500版本)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.18" data-path="../microbit/KSB062.html">
+            
+                <a href="../microbit/KSB062.html">
+            
+                    
+                    KSB062 大電流鋰電池板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.19" data-path="../microbit/KSB064.html">
+            
+                <a href="../microbit/KSB064.html">
+            
+                    
+                    KSB064 PlayGamer Lite 彩屏遊戲擴展板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20" data-path="../microbit/KSB065.html">
+            
+                <a href="../microbit/KSB065.html">
+            
+                    
+                    KSB065 Home Automation Board 家庭自動化擴展板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.20.1" data-path="../microbit/KSB065_microbit.html">
+            
+                <a href="../microbit/KSB065_microbit.html">
+            
+                    
+                    KSB065 micro:bit使用說明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.2" data-path="../microbit/KSB065_pocketcard.html">
+            
+                <a href="../microbit/KSB065_pocketcard.html">
+            
+                    
+                    KSB065 PocketCard使用說明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.3" data-path="../microbit/KSB065_nodemcu.html">
+            
+                <a href="../microbit/KSB065_nodemcu.html">
+            
+                    
+                    KSB065 NodeMcu-32S使用說明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.4" data-path="../microbit/KSB065_pico.html">
+            
+                <a href="../microbit/KSB065_pico.html">
+            
+                    
+                    KSB065 Raspberry Pi Pico 使用說明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.5" data-path="../microbit/KSB065_C1.html">
+            
+                <a href="../microbit/KSB065_C1.html">
+            
+                    
+                    KSB065 排針腳位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.6" data-path="../microbit/KSB065_C2.html">
+            
+                <a href="../microbit/KSB065_C2.html">
+            
+                    
+                    KSB065 指撥開關腳位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20.7" data-path="../microbit/KSB065_C3.html">
+            
+                <a href="../microbit/KSB065_C3.html">
+            
+                    
+                    KSB065 Camera腳位
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.21" data-path="../microbit/KSB068.html">
+            
+                <a href="../microbit/KSB068.html">
+            
+                    
+                    KSB068 PlayGamer 大面板 彩屏遊戲機
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../esp32.html">
+            
+                <a href="../esp32.html">
+            
+                    
+                    ESP32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.3.1" data-path="KSB069.html">
+            
+                <a href="KSB069.html">
+            
+                    
+                    KSB069 ESP32/Pico Motor Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="KSB072.html">
+            
+                <a href="KSB072.html">
+            
+                    
+                    KSB072 ESP32/Pico to micro:bit Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../pico.html">
+            
+                <a href="../pico.html">
+            
+                    
+                    Pico
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.4.1" data-path="KSB069.html">
+            
+                <a href="KSB069.html">
+            
+                    
+                    KSB069 ESP32/Pico Motor Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="KSB072.html">
+            
+                <a href="KSB072.html">
+            
+                    
+                    KSB072 ESP32/Pico to micro:bit Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../KSR/">
+            
+                <a href="../../KSR/">
+            
+                    
+                    套件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../KSR/Car.html">
+            
+                <a href="../../KSR/Car.html">
+            
+                    
+                    自走車
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../../KSR/Car/KSR025.html">
+            
+                <a href="../../KSR/Car/KSR025.html">
+            
+                    
+                    KSR025 N20馬達 自走車
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="../../KSR/Car/KSR026[.md">
+            
+                <span>
+            
+                    
+                    KSR026 TT塑膠馬達 自走車
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.3" data-path="../../KSR/Car/KSR030_A.html">
+            
+                <a href="../../KSR/Car/KSR030_A.html">
+            
+                    
+                    KSR030 Version A N20馬達 自走車套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.4" data-path="../../KSR/Car/KSR030_B.html">
+            
+                <a href="../../KSR/Car/KSR030_B.html">
+            
+                    
+                    KSR030 Version B 仿生獸 自走車套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.5" data-path="../../KSR/Car/KSR030_C.html">
+            
+                <a href="../../KSR/Car/KSR030_C.html">
+            
+                    
+                    KSR030 Version C 麥克納姆輪 自走車套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.6" >
+            
+                <span>
+            
+                    
+                    KSR037 小Q 自走車套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.7" >
+            
+                <span>
+            
+                    
+                    KSR038 小麥積 麥克納姆輪 自走車套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../KSR/Robot.html">
+            
+                <a href="../../KSR/Robot.html">
+            
+                    
+                    機械人
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" >
+            
+                <span>
+            
+                    
+                    KSR011 9自由度 人形機器人 套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.2" >
+            
+                <span>
+            
+                    
+                    KSR012 4自由度 金屬機械手 套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.3" >
+            
+                <span>
+            
+                    
+                    KSR017 6自由度 兩足機器人 套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.4" data-path="../../KSR/Robot/KSR030_Dog.html">
+            
+                <a href="../../KSR/Robot/KSR030_Dog.html">
+            
+                    
+                    KSR030 10軸 機械狗 micro:bit套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.5" data-path="../../KSR/Robot/KSR030_Spider.html">
+            
+                <a href="../../KSR/Robot/KSR030_Spider.html">
+            
+                    
+                    KSR030 8軸 機械蜘蛛 micro:bit套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../KSR/Startkit.html">
+            
+                <a href="../../KSR/Startkit.html">
+            
+                    
+                    學習套件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.3.1" >
+            
+                <span>
+            
+                    
+                    KSR005 Arduino 35合1 模組套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.2" >
+            
+                <span>
+            
+                    
+                    KSR006 Arduino RFID 門禁套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.3" >
+            
+                <span>
+            
+                    
+                    KSR013 Arduino UNO 初學者套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.4" >
+            
+                <span>
+            
+                    
+                    KSR014 Arduino Mega2560 初學者套件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.5" >
+            
+                <span>
+            
+                    
+                    KSR030 12合1 基礎模組套件 （Arduino / micro:bit / ESP32）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.6" data-path="../../KSR/Startkit/KSB039_IOT.html">
+            
+                <a href="../../KSR/Startkit/KSB039_IOT.html">
+            
+                    
+                    KSB039 IOT 物聯網套件 for micro:bit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.7" >
+            
+                <span>
+            
+                    
+                    KSR036 自動澆水套件 for micro:bit
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.8" >
+            
+                <span>
+            
+                    
+                    KSR035 貓咪盃全國賽硬體套件 （Arduino / micro:bit / ESP32）
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../KSM/">
+            
+                <a href="../../KSM/">
+            
+                    
+                    模組
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" >
+            
+                <span>
+            
+                    
+                    LCM 顯示
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    LED 發光
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" >
+            
+                <span>
+            
+                    
+                    人體紅外
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" >
+            
+                <span>
+            
+                    
+                    儲存類型
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" >
+            
+                <span>
+            
+                    
+                    測光模組
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" >
+            
+                <span>
+            
+                    
+                    慣性測量
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" >
+            
+                <span>
+            
+                    
+                    天氣類型
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" >
+            
+                <span>
+            
+                    
+                    按鈕開關
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.9" >
+            
+                <span>
+            
+                    
+                    時間模組
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.10" >
+            
+                <span>
+            
+                    
+                    氣體偵測
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.11" >
+            
+                <span>
+            
+                    
+                    測距循跡
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.12" >
+            
+                <span>
+            
+                    
+                    溫度濕度
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.13" >
+            
+                <span>
+            
+                    
+                    生物識別
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.14" >
+            
+                <span>
+            
+                    
+                    磁場霍爾
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.15" >
+            
+                <span>
+            
+                    
+                    繼電器類
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.16" >
+            
+                <span>
+            
+                    
+                    訊號處理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.17" >
+            
+                <span>
+            
+                    
+                    重量感測
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.18" >
+            
+                <span>
+            
+                    
+                    電壓電流
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.19" >
+            
+                <span>
+            
+                    
+                    電源模組
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.20" >
+            
+                <span>
+            
+                    
+                    音訊模組
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.21" >
+            
+                <span>
+            
+                    
+                    馬達驅動
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.22" >
+            
+                <span>
+            
+                    
+                    無線通訊
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.23" >
+            
+                <span>
+            
+                    
+                    有線通訊
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >KSB069 ESP32/Pico Motor Board</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ksb069-esp32pico-&#x64F4;&#x5C55;&#x677F;">KSB069 ESP32/Pico &#x64F4;&#x5C55;&#x677F;</h1>
+<h2 id="&#x7C21;&#x4ECB;">&#x7C21;&#x4ECB;</h2>
+<p><img src="images/KSB069/001.png" alt="00000" style="zoom:80%;"></p>
+<p><img src="images/KSB069/002.png" alt="00000" style="zoom:38%;"></p>
+<p><img src="images/KSB069/003.png" alt="00000" style="zoom:38%;"></p>
+<p><img src="images/KSB069/007.png" alt="00000" style="zoom:38%;"></p>
+<p>KSB069 &#x64F4;&#x5C55;&#x677F; &#x662F; Raspberry Pi Pico &#x6216; ESP32  NodeMcu-32S 2&#x7528;&#x7684;&#x64F4;&#x5C55;&#x677F;&#xFF0C;ESP32 / PICO IO&#x8173;&#x4F4D; &#x5168;&#x90E8;&#x5F15;&#x51FA;&#xFF0C;&#x800C;&#x4E14;&#x7528;SVG 3&#x6392;&#x91DD;&#x65B9;&#x5F0F;&#x3002; &#x53EF;&#x4EE5;&#x7576;&#x505A;ESP32CAM &#x4F7F;&#x7528;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7576;&#x505A;2&#x8DEF;&#x99AC;&#x9054;&#x64F4;&#x5C55;&#x677F; &#x505A;&#x81EA;&#x8D70;&#x8ECA;&#x4F7F;&#x7528;&#x3002;</p>
+<hr>
+<h2 id="&#x7522;&#x54C1;&#x898F;&#x683C;">&#x7522;&#x54C1;&#x898F;&#x683C;</h2>
+<ul>
+<li>2x20 &#x63D2;&#x5EA7; (ESP32 / Pico )</li>
+<li>&#x96FB;&#x6E90;&#x958B;&#x95DC; (&#x96FB;&#x6E90;&#x7AEF;&#x5B50;)</li>
+<li>2&#x500B;micro SD&#x63D2;&#x69FD;&#xFF0C;ESP32 / Pico &#x5404;&#x4E00;</li>
+<li>1&#x500B;  ESP32 Camera &#x63D2;&#x5EA7;</li>
+<li>1&#x500B;  Raspberry Pi Pico &#x7684;Reset&#x6309;&#x9375;</li>
+<li>1&#x500B;  &#x56DB;&#x8DEF;&#x6307;&#x64A5;&#x958B;&#x95DC;&#xFF0C;&#x7528;&#x4F86;&#x63A7;&#x5236;&#x99AC;&#x9054; IO&#x8173;&#x4F4D;</li>
+<li>1x4 &#x6392;&#x91DD;&#x5B54;&#x4F4D;&#xFF0C;&#x7528;&#x4F86;&#x8B93;&#x4F7F;&#x7528;&#x8005; &#x81EA;&#x884C;&#x8A2D;&#x5B9A;&#x99AC;&#x9054;IO</li>
+<li>2&#x8DEF;&#x99AC;&#x9054;&#x5EA7;</li>
+<li>&#x96FB;&#x6E90;&#x7AEF;&#x5B50;(&#x8F38;&#x5165;6.5V~12V &#x8F49; 3V)</li>
+<li>&#x5C3A;&#x5BF8;&#xFF1A;80mm x60mm</li>
+</ul>
+<hr>
+<h2 id="&#x529F;&#x80FD;&#x8AAA;&#x660E;">&#x529F;&#x80FD;&#x8AAA;&#x660E;</h2>
+<p><img src="images/KSB069/010.png" alt="00000" style="zoom:48%;"></p>
+<p>&#x7DA0;&#x8272;&#x6392;&#x91DD;1&#xFF1A;VIN (&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#x7684;&#x96FB;&#x6E90;)</p>
+<p>&#x85CD;&#x8272;&#x6392;&#x91DD;2&#xFF1A;5V (&#x9700;&#x5F9E;ESP32/Pico&#x4E3B;&#x677F;&#x7684;USB &#x4F9B;&#x96FB;&#x62C9;&#x51FA;  ) </p>
+<p>&#x767D;&#x8272;&#x6392;&#x91DD;3&#xFF1A;&#x53EF;&#x4EE5;&#x7528;&#x8DF3;&#x5E3D;&#x9078;&#x64C7;&#xFF0C;SVG 3 &#x6392;&#x91DD;&#x8655;&#x7684;VCC &#x70BA;3V/5V (5V &#x9700;&#x5F9E;ESP32/Pico&#x4E3B;&#x677F;&#x7684;USB &#x4F9B;&#x96FB;)</p>
+<p>&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#xFF1A;VIN&#xFF08;&#x8F38;&#x5165;6.5V~12V &#x8F49; 3V&#xFF09;</p>
+<p>&#x6307;&#x64A5;&#x958B;&#x95DC;&#xFF1A;&#x4F7F;&#x7528;&#x677F;&#x4E0A;&#x9810;&#x8A2D;&#x7684;&#x99AC;&#x9054;IO&#xFF0C;&#x6307;&#x64A5;&#x8981;&#x5F80;&#x4E0A;&#x64A5; ON &#x6253;&#x958B;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x4F7F;&#x7528;ESP32 SD &#x529F;&#x80FD;&#xFF0C;&#x6307;&#x64A5;&#x8981;&#x5168;&#x90E8;&#x5F80;&#x4E0B;&#x64A5;&#x95DC;&#x9589;</p>
+<p>&#x99AC;&#x9054;IO&#x5B54;&#x4F4D;&#xFF1A;&#x5982;&#x679C;&#x677F;&#x4E0A;&#x9810;&#x8A2D;&#x7684;&#x99AC;&#x9054;IO&#x6709;&#x53E6;&#x5916;&#x7528;&#x9014;&#xFF0C;&#x53EF;&#x4EE5;&#x710A;&#x4E0A;&#x6392;&#x91DD;&#x518D;&#x7528;&#x675C;&#x90A6;&#x7DDA;&#x63D2;&#x5230; &#x5176;&#x5B83;IO&#x8173;&#x4F4D;&#xFF0C;&#x4F46;&#x6307;&#x64A5;&#x8981;&#x5168;&#x90E8;&#x95DC;&#x9589;</p>
+<p>PS</p>
+<p>&#x767D;&#x8272;&#x6392;&#x91DD;3 &#x7528;&#x8DF3;&#x5E3D;&#x9078;&#x64C7;SVG 3 &#x6392;&#x91DD;&#x8655;&#x7684;VCC &#x70BA;3V/5V</p>
+<p><img src="images/KSB069/011.png" alt="00000" style="zoom:48%;">     <img src="images/KSB069/012.png" alt="00000" style="zoom:48%;"></p>
+<hr>
+<h2 id="&#x8173;&#x4F4D;&#x8AAA;&#x660E;">&#x8173;&#x4F4D;&#x8AAA;&#x660E;</h2>
+<p>KSB069 &#x64F4;&#x5C55;&#x677F;&#x4E0A;&#x7684;Raspberry Pi Pico &#x4F7F;&#x7528;&#x8173;&#x4F4D;</p>
+<table>
+<thead>
+<tr>
+<th>&#x529F;&#x80FD;</th>
+<th>Pico&#x8173;&#x4F4D;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motor M1(1A)</td>
+<td>GP3</td>
+</tr>
+<tr>
+<td>Motor M1(1B)</td>
+<td>GP2</td>
+</tr>
+<tr>
+<td>Motor M2(2A)</td>
+<td>GP28</td>
+</tr>
+<tr>
+<td>Motor M2(2B)</td>
+<td>GP5</td>
+</tr>
+<tr>
+<td>Micro_SD(SCK)</td>
+<td>GP6</td>
+</tr>
+<tr>
+<td>Micro_SD(MOSI)</td>
+<td>GP7</td>
+</tr>
+<tr>
+<td>Micro_SD(MISO)</td>
+<td>GP4</td>
+</tr>
+<tr>
+<td>Micro_SD(CS)</td>
+<td>GP8</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>KSB069 &#x64F4;&#x5C55;&#x677F;&#x4E0A;&#x7684;NodeMcu-32S ESP32 &#x4F7F;&#x7528;&#x8173;&#x4F4D;</p>
+<p>ESP32 &#x90E8;&#x4EFD; <em>&#x99AC;&#x9054;</em> &#x7528;&#x7684;IO&#x8173;&#x4F4D;&#x8DDF; <em>micro SD</em> IO&#x8173;&#x4F4D; &#x6709;&#x91CD;&#x8986;&#xFF0C;&#x8ACB;&#x4F7F;&#x7528;&#x6307;&#x64A5;&#x958B;&#x95DC; ON /OFF &#x4F86;&#x6307;&#x5B9A;&#x529F;&#x80FD;</p>
+<table>
+<thead>
+<tr>
+<th>&#x529F;&#x80FD;</th>
+<th>ESP32&#x8173;&#x4F4D;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motor M1(1A)</td>
+<td>IO2</td>
+</tr>
+<tr>
+<td>Motor M1(1B)</td>
+<td>IO15</td>
+</tr>
+<tr>
+<td>Motor M2(2A)</td>
+<td>IO12</td>
+</tr>
+<tr>
+<td>Motor M2(2B)</td>
+<td>IO4</td>
+</tr>
+<tr>
+<td>Micro_SD(CLK)</td>
+<td>IO14</td>
+</tr>
+<tr>
+<td>Micro_SD(CMD)</td>
+<td>IO15</td>
+</tr>
+<tr>
+<td>Micro_SD(DATA0)</td>
+<td>IO2</td>
+</tr>
+<tr>
+<td>Micro_SD(DATA1)</td>
+<td>IO4</td>
+</tr>
+<tr>
+<td>Micro_SD(DATA2)</td>
+<td>IO12</td>
+</tr>
+<tr>
+<td>Micro_SD(DATA3)</td>
+<td>IO13</td>
+</tr>
+</tbody>
+</table>
+<p>KSB069 &#x64F4;&#x5C55;&#x677F;&#x4E0A;&#x7684;ESP32 Camera &#x8173;&#x4F4D;&#x662F;&#x6A19;&#x6E96;&#x7684;ESP32CAM &#x8173;&#x4F4D;</p>
+<table>
+<thead>
+<tr>
+<th>Camera &#x8173;&#x4F4D;</th>
+<th>ESP32&#x8173;&#x4F4D;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SIOD</td>
+<td>IO26</td>
+</tr>
+<tr>
+<td>SIOCIO</td>
+<td>IO27</td>
+</tr>
+<tr>
+<td>RESET</td>
+<td>EN</td>
+</tr>
+<tr>
+<td>VSYNC</td>
+<td>IO25</td>
+</tr>
+<tr>
+<td>PWDN</td>
+<td>IO32</td>
+</tr>
+<tr>
+<td>HREF</td>
+<td>IO23</td>
+</tr>
+<tr>
+<td>XCLK</td>
+<td>IO0</td>
+</tr>
+<tr>
+<td>PCLK</td>
+<td>IO22</td>
+</tr>
+<tr>
+<td>Y9</td>
+<td>IO35</td>
+</tr>
+<tr>
+<td>Y8</td>
+<td>IO34</td>
+</tr>
+<tr>
+<td>Y7</td>
+<td>IO39</td>
+</tr>
+<tr>
+<td>Y6</td>
+<td>IO36</td>
+</tr>
+<tr>
+<td>Y5</td>
+<td>IO21</td>
+</tr>
+<tr>
+<td>Y4</td>
+<td>IO19</td>
+</tr>
+<tr>
+<td>Y3</td>
+<td>IO18</td>
+</tr>
+<tr>
+<td>Y2</td>
+<td>IO5</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="&#x57FA;&#x672C;&#x7BC4;&#x4F8B;">&#x57FA;&#x672C;&#x7BC4;&#x4F8B;</h2>
+<p>ESP32 &#x548C;Pico &#x7BC4;&#x4F8B;</p>
+<p><a href="example/KSB069/KSB069_DemoCode.zip">KSB069_DemoCode.zip</a></p>
+<p>PS &#x7BC4;&#x4F8B;&#x4E0B;&#x8F09;&#xFF1A;&#x9078;&#x7BC4;&#x4F8B;&#x5F8C;&#x518D;&#x53E6;&#x5B58;&#x9023;&#x7D50;</p>
+<h3 id="esp32-&#x7BC4;&#x4F8B;">ESP32 &#x7BC4;&#x4F8B;</h3>
+<p>&#x9084;&#x6C92;&#x6709;&#x8A2D;&#x5B9A;ESP32 Arduino&#x958B;&#x767C;&#x74B0;&#x5883;&#xFF0C;&#x8ACB;&#x53C3;&#x8003;</p>
+<p><a href="../../BASIC/esp32_arduino.html">ESP32 Arduino &#x8A2D;&#x5B9A;</a></p>
+<p><strong>ESP32  NodeMcu-32S &#x63D2;&#x5165; KSB069 &#x64F4;&#x5C55;&#x677F;&#x6642;&#x8ACB;&#x9760;&#x5DE6;&#x63D2;&#x5165;&#xFF0C;&#x6700;&#x53F3;&#x4E00;&#x683C;&#x6C92;&#x6709;&#x4F7F;&#x7528;</strong></p>
+<p><img src="images/KSB069/003.png" alt="00000" style="zoom:38%;"></p>
+<h4 id="esp32-camera-&#x7BC4;&#x4F8B;">ESP32 Camera &#x7BC4;&#x4F8B;</h4>
+<p><img src="images/KSB069/004.png" alt="00000" style="zoom:38%;"></p>
+<p>&#x5148;&#x628A;OV2640 &#x93E1;&#x982D;&#x63D2;&#x5165;</p>
+<p>&#x555F;&#x52D5; Arduino IDE &#xFF0C;&#x958B;&#x767C;&#x677F;&#x8A2D;&#x5B9A;&#x503C;&#x300C;Partition Scheme&#x300D;  &#x8ACB;&#x4E00;&#x5B9A;&#x8981;&#x9078; &#x300C;Huge APP&#x300D;</p>
+<p>PSRAM &#x9078;&#x300C;Disabled&#x300D;</p>
+<p><img src="images/KSB069/S0010.png" alt="00000" style="zoom:58%;"></p>
+<p>&#x6253;&#x958B;&#x7BC4;&#x4F8B;&#x7684; &#x300C;CameraWebServer&#x300D;</p>
+<p>&#x8A2D;&#x5B9A; &#x4F60;&#x81EA;&#x5DF1;&#x7684;AP &#x7684;SSID &#x548C; Password&#xFF0C;&#x518D;&#x4E0B;&#x8F09;&#x57F7;&#x884C;</p>
+<p><img src="images/KSB069/S0011.png" alt="00000" style="zoom:58%;"></p>
+<p>&#x82E5;&#x93E1;&#x982D;&#x7D44;&#x88DD;&#x548C;AP &#x8A2D;&#x5B9A;&#x6C92;&#x6709;&#x554F;&#x984C;&#x6642;&#xFF0C;&#x958B;&#x555F;&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#xFF0C;&#x756B;&#x9762;&#x4E2D;&#x51FA;&#x73FE;&#x7684;IP &#x5C31;&#x662F; Camera &#x7684;IP &#x4F4D;&#x7F6E;</p>
+<p><img src="images/KSB069/S0012.png" alt="00000" style="zoom:58%;"></p>
+<p>&#x4F7F;&#x7528;&#x624B;&#x6A5F;&#x6216;&#x7B46;&#x96FB;&#x7684;&#x700F;&#x89BD;&#x5668;&#x8F38;&#x5165;&#x4E0A;&#x9762;&#x7684;IP &#x4F4D;&#x7F6E;&#xFF0C;&#x6703;&#x51FA;&#x73FE;&#x4E0B;&#x9762;WEBCAM &#x7684;&#x8A2D;&#x5B9A;&#x756B;&#x9762;</p>
+<p><img src="images/KSB069/S0013.jpg" alt="00000" style="zoom:58%;"></p>
+<p>&#x6309;&#x4E0B;&#x300C;Start Stream&#x300D;&#x5C31;&#x6703;&#x51FA;&#x73FE;&#x651D;&#x5F71;&#x756B;&#x9762;</p>
+<p><img src="images/KSB069/S0014.jpg" alt="00000" style="zoom:58%;"></p>
+<h4 id="esp32-sd-&#x7BC4;&#x4F8B;">ESP32 SD &#x7BC4;&#x4F8B;</h4>
+<p>ESP32 micro SD&#x7684;&#x4F7F;&#x7528;&#x8DDF;ESP32CAM&#x662F;&#x4E00;&#x6A23;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x5DEE;&#x5225;&#x53EA;&#x662F;&#x5728;&#x7A0B;&#x5F0F;&#x4E2D;SD &#x7528;&#x7684;IO &#x8981;&#x52A0;&#x5165;PULL UP &#x6A21;&#x5F0F;&#xFF0C;&#x9019;&#x662F;&#x70BA;&#x4E86;&#x5BE6;&#x73FE;Camera &#x63A5;&#x4E0A;&#x5F8C;&#x4E5F;&#x80FD;&#x76F4;&#x63A5;&#x71D2;&#x9304;&#x4E0D;&#x6309;&#x4EFB;&#x4F55;&#x6309;&#x9375;&#x7684;&#x59A5;&#x5354;&#x65B9;&#x5F0F;&#x3002;</p>
+<p><img src="images/KSB069/005.png" alt="00000" style="zoom:38%;"></p>
+<p>1.&#x8ACB;&#x5148;&#x628A;&#x6307;&#x64A5;&#x958B;&#x95DC;&#x5168;&#x90E8;&#x5F80;&#x4E0B;&#x64A5;&#x5230;OFF&#xFF0C;&#x518D;&#x628A;micro SD &#x5361;&#x63D2;&#x5165;</p>
+<p>2.&#x6253;&#x958B;&#x7BC4;&#x4F8B;&#x7684; &#x300C;SDMMC_Test&#x300D;&#xFF0C;&#x518D;&#x4E0B;&#x8F09;&#x57F7;&#x884C; &#xFF0C;&#x958B;&#x555F;&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#xFF0C;&#x5C31;&#x6703;&#x770B;&#x5230;&#x4E00;&#x4E9B;SD &#x5361;&#x8A0A;&#x606F;</p>
+<p><strong>PS &#x6CE8;&#x610F;</strong></p>
+<p>micro sd &#x5361;&#x7A0B;&#x5F0F;&#x4E2D;&#x4E00;&#x5B9A;&#x8981;&#x5728;&#x5728;SD_MMC&#x521D;&#x59CB;&#x5316;&#x524D;&#x628A;&#x4E0B;&#x9762;&#x7684;IO &#x8A2D;&#x6210;PULL UP &#x6A21;&#x5F0F;</p>
+<p><img src="images/KSB069/s0020.png" alt="00000" style="zoom:68%;"></p>
+<h4 id="esp32-2&#x8DEF;&#x99AC;&#x9054;&#x7BC4;&#x4F8B;">ESP32 2&#x8DEF;&#x99AC;&#x9054;&#x7BC4;&#x4F8B;</h4>
+<p><img src="images/KSB069/006.png" alt="00000" style="zoom:38%;"></p>
+<p>1.&#x8ACB;&#x5148;&#x628A;&#x6307;&#x64A5;&#x958B;&#x95DC;&#x5168;&#x90E8;&#x5F80;&#x4E0A;&#x64A5;&#x5230;ON&#xFF0C;&#x518D;&#x628A;&#x99AC;&#x9054;&#x63D2;&#x4E0A;</p>
+<p>2.&#x6253;&#x958B;&#x7BC4;&#x4F8B;&#x7684; &#x300C;Motor&#x300D;&#xFF0C;&#x518D;&#x4E0B;&#x8F09;&#x57F7;&#x884C; &#xFF0C;&#x5C31;&#x6703;&#x770B;&#x5230;2&#x500B;&#x99AC;&#x9054;&#x524D;&#x5F8C;&#x4F9D;&#x64DA;&#x4E0D;&#x540C;&#x8F49;&#x901F;&#x65CB;&#x8F49;&#x3002;&#x7A0B;&#x5F0F;&#x4E2D;&#x7A0D;&#x70BA;&#x4FEE;&#x6539;&#x5C31;&#x53EF;&#x4EE5;&#x7576;&#x4F5C;&#x5C0F;&#x8ECA;&#x7684;&#x63A7;&#x5236;Code &#x4F7F;&#x7528;&#x3002;</p>
+<p><strong>PS &#x6CE8;&#x610F;</strong></p>
+<p>&#x99AC;&#x9054;&#x7684;&#x96FB;&#x6E90;&#x662F;&#x7531;&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#x7684;VIN&#x4F9B;&#x96FB;&#x7684;&#x3002; </p>
+<p>&#x5982;&#x679C;&#x662F;&#x8981;&#x7528;&#x4E3B;&#x677F;USB &#x7DDA;&#x4F9B;&#x96FB;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;VIN&#x6392;&#x91DD;&#x548C;5V &#x6392;&#x91DD;&#x90A3;&#x63D2;&#x4E0A;&#x8DF3;&#x5E3D;&#xFF0C;&#x4F46;&#x9019;&#x6642;&#x8981;&#x6CE8;&#x610F;&#x4E0D;&#x80FD;&#x518D;&#x63A5;&#x96FB;&#x6C60;&#x5230;&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#xFF0C;&#x5426;&#x5247;VIN &#x96FB;&#x6E90;&#x6703;&#x9023;&#x5230;&#x4E3B;&#x677F;USB&#x8655;&#xFF0C;&#x6240;&#x4EE5;&#x4F7F;&#x7528;&#x9019;&#x500B;&#x65B9;&#x5F0F;&#x8ACB;&#x614E;&#x7528;&#x3002;</p>
+<hr>
+<h3 id="pico-&#x7BC4;&#x4F8B;">Pico &#x7BC4;&#x4F8B;</h3>
+<p>&#x9084;&#x6C92;&#x6709;&#x8A2D;&#x5B9A;Raspberry Pi Pico Arduino&#x958B;&#x767C;&#x74B0;&#x5883;&#xFF0C;&#x8ACB;&#x53C3;&#x8003;</p>
+<p><a href="../../BASIC/pico_arduino.html">Pico Arduino &#x8A2D;&#x5B9A;</a></p>
+<p><img src="images/KSB069/007.png" alt="00000" style="zoom:38%;"></p>
+<h4 id="pico-sd-&#x7BC4;&#x4F8B;">Pico SD &#x7BC4;&#x4F8B;</h4>
+<p><img src="images/KSB069/008.png" alt="00000" style="zoom:38%;"></p>
+<p>1.&#x8ACB;&#x5148;&#x628A;&#x6307;&#x64A5;&#x958B;&#x95DC;&#x5168;&#x90E8;&#x5F80;&#x4E0B;&#x64A5;&#x5230;OFF&#xFF0C;&#x518D;&#x628A;micro SD &#x5361;&#x63D2;&#x5165;</p>
+<p>2.&#x6253;&#x958B;&#x7BC4;&#x4F8B;&#x7684; &#x300C;listfiles&#x300D;&#xFF0C;&#x518D;&#x4E0B;&#x8F09;&#x57F7;&#x884C; &#xFF0C;&#x958B;&#x555F;&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#xFF0C;&#x5C31;&#x6703;&#x770B;&#x5230;&#x4E00;&#x4E9B;SD &#x5361;&#x8A0A;&#x606F;</p>
+<h4 id="pico-2&#x8DEF;&#x99AC;&#x9054;&#x7BC4;&#x4F8B;">Pico 2&#x8DEF;&#x99AC;&#x9054;&#x7BC4;&#x4F8B;</h4>
+<p><img src="images/KSB069/009.png" alt="00000" style="zoom:38%;"></p>
+<p>1.&#x8ACB;&#x5148;&#x628A;&#x6307;&#x64A5;&#x958B;&#x95DC;&#x5168;&#x90E8;&#x5F80;&#x4E0A;&#x64A5;&#x5230;ON&#xFF0C;&#x518D;&#x628A;&#x99AC;&#x9054;&#x63D2;&#x4E0A;</p>
+<p>2.&#x6253;&#x958B;&#x7BC4;&#x4F8B;&#x7684; &#x300C;Motor&#x300D;&#xFF0C;&#x518D;&#x4E0B;&#x8F09;&#x57F7;&#x884C; &#xFF0C;&#x5C31;&#x6703;&#x770B;&#x5230;2&#x500B;&#x99AC;&#x9054;&#x524D;&#x5F8C;&#x4F9D;&#x64DA;&#x4E0D;&#x540C;&#x8F49;&#x901F;&#x65CB;&#x8F49;&#x3002;&#x7A0B;&#x5F0F;&#x4E2D;&#x7A0D;&#x70BA;&#x4FEE;&#x6539;&#x5C31;&#x53EF;&#x4EE5;&#x7576;&#x4F5C;&#x5C0F;&#x8ECA;&#x7684;&#x63A7;&#x5236;Code &#x4F7F;&#x7528;&#x3002;</p>
+<p><strong>PS &#x6CE8;&#x610F;</strong></p>
+<p>&#x99AC;&#x9054;&#x7684;&#x96FB;&#x6E90;&#x662F;&#x7531;&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#x7684;VIN&#x4F9B;&#x96FB;&#x7684;&#x3002; </p>
+<p>&#x5982;&#x679C;&#x662F;&#x8981;&#x7528;&#x4E3B;&#x677F;USB &#x7DDA;&#x4F9B;&#x96FB;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;VIN&#x6392;&#x91DD;&#x548C;5V &#x6392;&#x91DD;&#x90A3;&#x63D2;&#x4E0A;&#x8DF3;&#x5E3D;&#xFF0C;&#x4F46;&#x9019;&#x6642;&#x8981;&#x6CE8;&#x610F;&#x4E0D;&#x80FD;&#x518D;&#x63A5;&#x96FB;&#x6C60;&#x5230;&#x96FB;&#x6E90;&#x7AEF;&#x5B50;&#xFF0C;&#x5426;&#x5247;VIN &#x96FB;&#x6E90;&#x6703;&#x9023;&#x5230;&#x4E3B;&#x677F;USB&#x8655;&#xFF0C;&#x6240;&#x4EE5;&#x4F7F;&#x7528;&#x9019;&#x500B;&#x65B9;&#x5F0F;&#x8ACB;&#x614E;&#x7528;&#x3002;</p>
+<hr>
+<h2 id="&#x61C9;&#x7528;&#x5716;&#x793A;">&#x61C9;&#x7528;&#x5716;&#x793A;</h2>
+<p><img src="images/KSB069/021.jpg" alt="00000" style="zoom:48%;"><img src="images/KSB069/022.jpg" alt="00000" style="zoom:48%;"></p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <em>KAISE KSRobot</em> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <i>updated</i> 2023-05-30 21:04:47 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../esp32.html" class="navigation navigation-prev " aria-label="Previous page: ESP32">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="KSB072.html" class="navigation navigation-next " aria-label="Next page: KSB072 ESP32/Pico to micro:bit Board">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"KSB069 ESP32/Pico Motor Board","level":"2.1.3.1","depth":3,"next":{"title":"KSB072 ESP32/Pico to micro:bit Board","level":"2.1.3.2","depth":3,"path":"KSB/esp32/KSB072.md","ref":"KSB/esp32/KSB072.md","articles":[]},"previous":{"title":"ESP32","level":"2.1.3","depth":2,"path":"KSB/esp32.md","ref":"KSB/esp32.md","articles":[{"title":"KSB069 ESP32/Pico Motor Board","level":"2.1.3.1","depth":3,"path":"KSB/esp32/KSB069.md","ref":"KSB/esp32/KSB069.md","articles":[]},{"title":"KSB072 ESP32/Pico to micro:bit Board","level":"2.1.3.2","depth":3,"path":"KSB/esp32/KSB072.md","ref":"KSB/esp32/KSB072.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["insert-logo","expandable-chapters-small","code","page-footer-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"page-footer-ex":{"copyright":"By <em>KAISE KSRobot</em>","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"<i>updated</i>"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px; min-height: 30px","url":"/docs/images/ks_logo.png"}},"theme":"default","author":"KAISE KSRobot","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"KAISE KSRobot","language":"ch","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"KAISE KSRobot":"https://www.kaise.com.tw"}},"gitbook":"*","description":"KAISE KSRobot ","extension":null},"file":{"path":"KSB/esp32/KSB069.md","mtime":"2023-05-30T13:04:47.470Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-31T04:31:49.223Z"},"basePath":"../..","book":{"language":"ch"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
